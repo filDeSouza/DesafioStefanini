@@ -1,0 +1,6 @@
+framework module Pods_DesafioStefanini {
+  umbrella header "Pods-DesafioStefanini-umbrella.h"
+
+  export *
+  module * { export * }
+}

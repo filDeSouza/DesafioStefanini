@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D260A5AA207A38F6B455C0 /* Pods_DesafioStefaniniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA69687BA43C488859B39044 /* Pods_DesafioStefaniniTests.framework */; };
+		3B047CBF271B38C100467ABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047CBE271B38C100467ABD /* AppDelegate.swift */; };
+		3B047CC1271B38C100467ABD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047CC0271B38C100467ABD /* SceneDelegate.swift */; };
+		3B047CC6271B38C100467ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B047CC4271B38C100467ABD /* Main.storyboard */; };
+		3B047CC8271B38C400467ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B047CC7271B38C400467ABD /* Assets.xcassets */; };
+		3B047CCB271B38C400467ABD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B047CC9271B38C400467ABD /* LaunchScreen.storyboard */; };
+		3B047CD6271B38C400467ABD /* DesafioStefaniniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047CD5271B38C400467ABD /* DesafioStefaniniTests.swift */; };
+		3B047CE1271B38C400467ABD /* DesafioStefaniniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047CE0271B38C400467ABD /* DesafioStefaniniUITests.swift */; };
+		3B047D11271B393500467ABD /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D10271B393500467ABD /* Constantes.swift */; };
+		3B047D17271B395200467ABD /* AppBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D16271B395200467ABD /* AppBusiness.swift */; };
+		3B047D23271B398100467ABD /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D22271B398100467ABD /* AppManager.swift */; };
+		3B047D30271B399D00467ABD /* AppProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D2E271B399D00467ABD /* AppProvider.swift */; };
+		3B047D31271B399D00467ABD /* AppProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D2F271B399D00467ABD /* AppProviderProtocol.swift */; };
+		3B047D46271B39F100467ABD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D45271B39F100467ABD /* APIService.swift */; };
+		3B047D52271B3A0F00467ABD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D51271B3A0F00467ABD /* Utils.swift */; };
+		3B047D64271B3A3600467ABD /* GaleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D63271B3A3600467ABD /* GaleryModel.swift */; };
+		3B047D79271B3A6A00467ABD /* GaleryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D73271B3A6A00467ABD /* GaleryModels.swift */; };
+		3B047D7A271B3A6A00467ABD /* GaleryWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D74271B3A6A00467ABD /* GaleryWorker.swift */; };
+		3B047D7B271B3A6A00467ABD /* GaleryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D75271B3A6A00467ABD /* GaleryPresenter.swift */; };
+		3B047D7C271B3A6A00467ABD /* GaleryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D76271B3A6A00467ABD /* GaleryInteractor.swift */; };
+		3B047D7D271B3A6A00467ABD /* GaleryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D77271B3A6A00467ABD /* GaleryRouter.swift */; };
+		3B047D7E271B3A6A00467ABD /* GaleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047D78271B3A6A00467ABD /* GaleryViewController.swift */; };
+		3B047DAF271B93E100467ABD /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B047DAD271B93E100467ABD /* ImagesCollectionViewCell.swift */; };
+		3B047DB0271B93E100467ABD /* ImagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B047DAE271B93E100467ABD /* ImagesCollectionViewCell.xib */; };
+		3B6575BD271C937900659104 /* GaleryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6575BB271C937900659104 /* GaleryTableViewCell.swift */; };
+		3B6575BE271C937900659104 /* GaleryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6575BC271C937900659104 /* GaleryTableViewCell.xib */; };
+		C158B4C17F45765E357AEFD0 /* Pods_DesafioStefanini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650B37991DC687EBA48E37EE /* Pods_DesafioStefanini.framework */; };
+		C4670B4FED692D61E71B710F /* Pods_DesafioStefanini_DesafioStefaniniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0240634E1F426C42F1F643D /* Pods_DesafioStefanini_DesafioStefaniniUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B047CD2271B38C400467ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B047CB3271B38C100467ABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B047CBA271B38C100467ABD;
+			remoteInfo = DesafioStefanini;
+		};
+		3B047CDD271B38C400467ABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B047CB3271B38C100467ABD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B047CBA271B38C100467ABD;
+			remoteInfo = DesafioStefanini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C12CA093F3FA74588C2E6E3 /* Pods-DesafioStefaniniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioStefaniniTests.release.xcconfig"; path = "Target Support Files/Pods-DesafioStefaniniTests/Pods-DesafioStefaniniTests.release.xcconfig"; sourceTree = "<group>"; };
+		28D7E5C5911A52DF70BC5AC2 /* Pods-DesafioStefanini-DesafioStefaniniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioStefanini-DesafioStefaniniUITests.release.xcconfig"; path = "Target Support Files/Pods-DesafioStefanini-DesafioStefaniniUITests/Pods-DesafioStefanini-DesafioStefaniniUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2951CE504338E97061A56072 /* Pods-DesafioStefanini-DesafioStefaniniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioStefanini-DesafioStefaniniUITests.debug.xcconfig"; path = "Target Support Files/Pods-DesafioStefanini-DesafioStefaniniUITests/Pods-DesafioStefanini-DesafioStefaniniUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E6167C285EAA5A3AE66B235 /* Pods-DesafioStefanini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioStefanini.debug.xcconfig"; path = "Target Support Files/Pods-DesafioStefanini/Pods-DesafioStefanini.debug.xcconfig"; sourceTree = "<group>"; };
+		3B047CBB271B38C100467ABD /* DesafioStefanini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioStefanini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B047CBE271B38C100467ABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B047CC0271B38C100467ABD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B047CC5271B38C100467ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B047CC7271B38C400467ABD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B047CCA271B38C400467ABD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B047CCC271B38C400467ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B047CD1271B38C400467ABD /* DesafioStefaniniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioStefaniniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B047CD5271B38C400467ABD /* DesafioStefaniniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioStefaniniTests.swift; sourceTree = "<group>"; };
+		3B047CD7271B38C400467ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B047CDC271B38C400467ABD /* DesafioStefaniniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesafioStefaniniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B047CE0271B38C400467ABD /* DesafioStefaniniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesafioStefaniniUITests.swift; sourceTree = "<group>"; };
+		3B047CE2271B38C400467ABD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B047D10271B393500467ABD /* Constantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		3B047D16271B395200467ABD /* AppBusiness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppBusiness.swift; sourceTree = "<group>"; };
+		3B047D22271B398100467ABD /* AppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		3B047D2E271B399D00467ABD /* AppProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppProvider.swift; sourceTree = "<group>"; };
+		3B047D2F271B399D00467ABD /* AppProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppProviderProtocol.swift; sourceTree = "<group>"; };
+		3B047D45271B39F100467ABD /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		3B047D51271B3A0F00467ABD /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3B047D63271B3A3600467ABD /* GaleryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaleryModel.swift; sourceTree = "<group>"; };
+		3B047D73271B3A6A00467ABD /* GaleryModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaleryModels.swift; sourceTree = "<group>"; };
+		3B047D74271B3A6A00467ABD /* GaleryWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaleryWorker.swift; sourceTree = "<group>"; };
+		3B047D75271B3A6A00467ABD /* GaleryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaleryPresenter.swift; sourceTree = "<group>"; };
+		3B047D76271B3A6A00467ABD /* GaleryInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaleryInteractor.swift; sourceTree = "<group>"; };
+		3B047D77271B3A6A00467ABD /* GaleryRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaleryRouter.swift; sourceTree = "<group>"; };
+		3B047D78271B3A6A00467ABD /* GaleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaleryViewController.swift; sourceTree = "<group>"; };
+		3B047DAD271B93E100467ABD /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B047DAE271B93E100467ABD /* ImagesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImagesCollectionViewCell.xib; sourceTree = "<group>"; };
+		3B6575BB271C937900659104 /* GaleryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaleryTableViewCell.swift; sourceTree = "<group>"; };
+		3B6575BC271C937900659104 /* GaleryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GaleryTableViewCell.xib; sourceTree = "<group>"; };
+		650B37991DC687EBA48E37EE /* Pods_DesafioStefanini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioStefanini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6839231E3335C81B99298754 /* Pods-DesafioStefaniniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioStefaniniTests.debug.xcconfig"; path = "Target Support Files/Pods-DesafioStefaniniTests/Pods-DesafioStefaniniTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C069FB7AA8462DBD9684EF8C /* Pods-DesafioStefanini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioStefanini.release.xcconfig"; path = "Target Support Files/Pods-DesafioStefanini/Pods-DesafioStefanini.release.xcconfig"; sourceTree = "<group>"; };
+		E0240634E1F426C42F1F643D /* Pods_DesafioStefanini_DesafioStefaniniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioStefanini_DesafioStefaniniUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA69687BA43C488859B39044 /* Pods_DesafioStefaniniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioStefaniniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B047CB8271B38C100467ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C158B4C17F45765E357AEFD0 /* Pods_DesafioStefanini.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B047CCE271B38C400467ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D260A5AA207A38F6B455C0 /* Pods_DesafioStefaniniTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B047CD9271B38C400467ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4670B4FED692D61E71B710F /* Pods_DesafioStefanini_DesafioStefaniniUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B2AF99F2DC07D8596CDDC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				650B37991DC687EBA48E37EE /* Pods_DesafioStefanini.framework */,
+				E0240634E1F426C42F1F643D /* Pods_DesafioStefanini_DesafioStefaniniUITests.framework */,
+				FA69687BA43C488859B39044 /* Pods_DesafioStefaniniTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B047CB2271B38C100467ABD = {
+			isa = PBXGroup;
+			children = (
+				3B047CBD271B38C100467ABD /* DesafioStefanini */,
+				3B047CD4271B38C400467ABD /* DesafioStefaniniTests */,
+				3B047CDF271B38C400467ABD /* DesafioStefaniniUITests */,
+				3B047CBC271B38C100467ABD /* Products */,
+				85755C4BDB82013803E16EDA /* Pods */,
+				07B2AF99F2DC07D8596CDDC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B047CBC271B38C100467ABD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B047CBB271B38C100467ABD /* DesafioStefanini.app */,
+				3B047CD1271B38C400467ABD /* DesafioStefaniniTests.xctest */,
+				3B047CDC271B38C400467ABD /* DesafioStefaniniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B047CBD271B38C100467ABD /* DesafioStefanini */ = {
+			isa = PBXGroup;
+			children = (
+				3B047D9A271B403000467ABD /* View */,
+				3B047D71271B3A5200467ABD /* Scenes */,
+				3B047D62271B3A2E00467ABD /* Model */,
+				3B047D50271B3A0200467ABD /* Utils */,
+				3B047D44271B39EA00467ABD /* Service */,
+				3B047D2D271B399000467ABD /* Provider */,
+				3B047D21271B397900467ABD /* Manager */,
+				3B047D15271B394200467ABD /* Business */,
+				3B047D10271B393500467ABD /* Constantes.swift */,
+				3B047CBE271B38C100467ABD /* AppDelegate.swift */,
+				3B047CC0271B38C100467ABD /* SceneDelegate.swift */,
+				3B047CC7271B38C400467ABD /* Assets.xcassets */,
+				3B047CCC271B38C400467ABD /* Info.plist */,
+			);
+			path = DesafioStefanini;
+			sourceTree = "<group>";
+		};
+		3B047CD4271B38C400467ABD /* DesafioStefaniniTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B047CD5271B38C400467ABD /* DesafioStefaniniTests.swift */,
+				3B047CD7271B38C400467ABD /* Info.plist */,
+			);
+			path = DesafioStefaniniTests;
+			sourceTree = "<group>";
+		};
+		3B047CDF271B38C400467ABD /* DesafioStefaniniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B047CE0271B38C400467ABD /* DesafioStefaniniUITests.swift */,
+				3B047CE2271B38C400467ABD /* Info.plist */,
+			);
+			path = DesafioStefaniniUITests;
+			sourceTree = "<group>";
+		};
+		3B047D15271B394200467ABD /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				3B047D16271B395200467ABD /* AppBusiness.swift */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		3B047D21271B397900467ABD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3B047D22271B398100467ABD /* AppManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3B047D2D271B399000467ABD /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				3B047D2E271B399D00467ABD /* AppProvider.swift */,
+				3B047D2F271B399D00467ABD /* AppProviderProtocol.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		3B047D44271B39EA00467ABD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3B047D45271B39F100467ABD /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3B047D50271B3A0200467ABD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3B047D51271B3A0F00467ABD /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3B047D62271B3A2E00467ABD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B047D63271B3A3600467ABD /* GaleryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B047D71271B3A5200467ABD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3B047D72271B3A5A00467ABD /* GaleryImages */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3B047D72271B3A5A00467ABD /* GaleryImages */ = {
+			isa = PBXGroup;
+			children = (
+				3B047D73271B3A6A00467ABD /* GaleryModels.swift */,
+				3B047D76271B3A6A00467ABD /* GaleryInteractor.swift */,
+				3B047D75271B3A6A00467ABD /* GaleryPresenter.swift */,
+				3B047D77271B3A6A00467ABD /* GaleryRouter.swift */,
+				3B047D78271B3A6A00467ABD /* GaleryViewController.swift */,
+				3B047D74271B3A6A00467ABD /* GaleryWorker.swift */,
+			);
+			path = GaleryImages;
+			sourceTree = "<group>";
+		};
+		3B047D9A271B403000467ABD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B047DAC271B93CC00467ABD /* Images */,
+				3B047DAB271B93C100467ABD /* Galery */,
+				3B047CC9271B38C400467ABD /* LaunchScreen.storyboard */,
+				3B047CC4271B38C100467ABD /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B047DAB271B93C100467ABD /* Galery */ = {
+			isa = PBXGroup;
+			children = (
+				3B6575BB271C937900659104 /* GaleryTableViewCell.swift */,
+				3B6575BC271C937900659104 /* GaleryTableViewCell.xib */,
+			);
+			path = Galery;
+			sourceTree = "<group>";
+		};
+		3B047DAC271B93CC00467ABD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3B047DAD271B93E100467ABD /* ImagesCollectionViewCell.swift */,
+				3B047DAE271B93E100467ABD /* ImagesCollectionViewCell.xib */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		85755C4BDB82013803E16EDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E6167C285EAA5A3AE66B235 /* Pods-DesafioStefanini.debug.xcconfig */,
+				C069FB7AA8462DBD9684EF8C /* Pods-DesafioStefanini.release.xcconfig */,
+				2951CE504338E97061A56072 /* Pods-DesafioStefanini-DesafioStefaniniUITests.debug.xcconfig */,
+				28D7E5C5911A52DF70BC5AC2 /* Pods-DesafioStefanini-DesafioStefaniniUITests.release.xcconfig */,
+				6839231E3335C81B99298754 /* Pods-DesafioStefaniniTests.debug.xcconfig */,
+				0C12CA093F3FA74588C2E6E3 /* Pods-DesafioStefaniniTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B047CBA271B38C100467ABD /* DesafioStefanini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B047CE5271B38C400467ABD /* Build configuration list for PBXNativeTarget "DesafioStefanini" */;
+			buildPhases = (
+				86C99EFED58E54D658E62A50 /* [CP] Check Pods Manifest.lock */,
+				3B047CB7271B38C100467ABD /* Sources */,
+				3B047CB8271B38C100467ABD /* Frameworks */,
+				3B047CB9271B38C100467ABD /* Resources */,
+				DDB46FCD46C6F9DE10A5D44D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioStefanini;
+			productName = DesafioStefanini;
+			productReference = 3B047CBB271B38C100467ABD /* DesafioStefanini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B047CD0271B38C400467ABD /* DesafioStefaniniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B047CE8271B38C400467ABD /* Build configuration list for PBXNativeTarget "DesafioStefaniniTests" */;
+			buildPhases = (
+				01902452C6C9147C9D406443 /* [CP] Check Pods Manifest.lock */,
+				3B047CCD271B38C400467ABD /* Sources */,
+				3B047CCE271B38C400467ABD /* Frameworks */,
+				3B047CCF271B38C400467ABD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B047CD3271B38C400467ABD /* PBXTargetDependency */,
+			);
+			name = DesafioStefaniniTests;
+			productName = DesafioStefaniniTests;
+			productReference = 3B047CD1271B38C400467ABD /* DesafioStefaniniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B047CDB271B38C400467ABD /* DesafioStefaniniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B047CEB271B38C400467ABD /* Build configuration list for PBXNativeTarget "DesafioStefaniniUITests" */;
+			buildPhases = (
+				D31405EEA24D8DE45057FFDB /* [CP] Check Pods Manifest.lock */,
+				3B047CD8271B38C400467ABD /* Sources */,
+				3B047CD9271B38C400467ABD /* Frameworks */,
+				3B047CDA271B38C400467ABD /* Resources */,
+				925172C769766EF2F4121E13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B047CDE271B38C400467ABD /* PBXTargetDependency */,
+			);
+			name = DesafioStefaniniUITests;
+			productName = DesafioStefaniniUITests;
+			productReference = 3B047CDC271B38C400467ABD /* DesafioStefaniniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B047CB3271B38C100467ABD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3B047CBA271B38C100467ABD = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					3B047CD0271B38C400467ABD = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3B047CBA271B38C100467ABD;
+					};
+					3B047CDB271B38C400467ABD = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3B047CBA271B38C100467ABD;
+					};
+				};
+			};
+			buildConfigurationList = 3B047CB6271B38C100467ABD /* Build configuration list for PBXProject "DesafioStefanini" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B047CB2271B38C100467ABD;
+			productRefGroup = 3B047CBC271B38C100467ABD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B047CBA271B38C100467ABD /* DesafioStefanini */,
+				3B047CD0271B38C400467ABD /* DesafioStefaniniTests */,
+				3B047CDB271B38C400467ABD /* DesafioStefaniniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B047CB9271B38C100467ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B047DB0271B93E100467ABD /* ImagesCollectionViewCell.xib in Resources */,
+				3B047CCB271B38C400467ABD /* LaunchScreen.storyboard in Resources */,
+				3B047CC8271B38C400467ABD /* Assets.xcassets in Resources */,
+				3B047CC6271B38C100467ABD /* Main.storyboard in Resources */,
+				3B6575BE271C937900659104 /* GaleryTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B047CCF271B38C400467ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B047CDA271B38C400467ABD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01902452C6C9147C9D406443 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioStefaniniTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86C99EFED58E54D658E62A50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioStefanini-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		925172C769766EF2F4121E13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioStefanini-DesafioStefaniniUITests/Pods-DesafioStefanini-DesafioStefaniniUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioStefanini-DesafioStefaniniUITests/Pods-DesafioStefanini-DesafioStefaniniUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioStefanini-DesafioStefaniniUITests/Pods-DesafioStefanini-DesafioStefaniniUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D31405EEA24D8DE45057FFDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioStefanini-DesafioStefaniniUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB46FCD46C6F9DE10A5D44D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioStefanini/Pods-DesafioStefanini-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioStefanini/Pods-DesafioStefanini-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioStefanini/Pods-DesafioStefanini-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B047CB7271B38C100467ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B047D79271B3A6A00467ABD /* GaleryModels.swift in Sources */,
+				3B047D64271B3A3600467ABD /* GaleryModel.swift in Sources */,
+				3B047D7A271B3A6A00467ABD /* GaleryWorker.swift in Sources */,
+				3B047D17271B395200467ABD /* AppBusiness.swift in Sources */,
+				3B047D30271B399D00467ABD /* AppProvider.swift in Sources */,
+				3B047D52271B3A0F00467ABD /* Utils.swift in Sources */,
+				3B047D7B271B3A6A00467ABD /* GaleryPresenter.swift in Sources */,
+				3B047D31271B399D00467ABD /* AppProviderProtocol.swift in Sources */,
+				3B047CBF271B38C100467ABD /* AppDelegate.swift in Sources */,
+				3B047D23271B398100467ABD /* AppManager.swift in Sources */,
+				3B047D7E271B3A6A00467ABD /* GaleryViewController.swift in Sources */,
+				3B047D7D271B3A6A00467ABD /* GaleryRouter.swift in Sources */,
+				3B047D11271B393500467ABD /* Constantes.swift in Sources */,
+				3B047D46271B39F100467ABD /* APIService.swift in Sources */,
+				3B047CC1271B38C100467ABD /* SceneDelegate.swift in Sources */,
+				3B047DAF271B93E100467ABD /* ImagesCollectionViewCell.swift in Sources */,
+				3B047D7C271B3A6A00467ABD /* GaleryInteractor.swift in Sources */,
+				3B6575BD271C937900659104 /* GaleryTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B047CCD271B38C400467ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B047CD6271B38C400467ABD /* DesafioStefaniniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B047CD8271B38C400467ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B047CE1271B38C400467ABD /* DesafioStefaniniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B047CD3271B38C400467ABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B047CBA271B38C100467ABD /* DesafioStefanini */;
+			targetProxy = 3B047CD2271B38C400467ABD /* PBXContainerItemProxy */;
+		};
+		3B047CDE271B38C400467ABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B047CBA271B38C100467ABD /* DesafioStefanini */;
+			targetProxy = 3B047CDD271B38C400467ABD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B047CC4271B38C100467ABD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B047CC5271B38C100467ABD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B047CC9271B38C400467ABD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B047CCA271B38C400467ABD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B047CE3271B38C400467ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B047CE4271B38C400467ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B047CE6271B38C400467ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6167C285EAA5A3AE66B235 /* Pods-DesafioStefanini.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM9Z8VV5ZP;
+				INFOPLIST_FILE = DesafioStefanini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipesouza.DesafioStefanini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B047CE7271B38C400467ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C069FB7AA8462DBD9684EF8C /* Pods-DesafioStefanini.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM9Z8VV5ZP;
+				INFOPLIST_FILE = DesafioStefanini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipesouza.DesafioStefanini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B047CE9271B38C400467ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6839231E3335C81B99298754 /* Pods-DesafioStefaniniTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM9Z8VV5ZP;
+				INFOPLIST_FILE = DesafioStefaniniTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipesouza.DesafioStefaniniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioStefanini.app/DesafioStefanini";
+			};
+			name = Debug;
+		};
+		3B047CEA271B38C400467ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C12CA093F3FA74588C2E6E3 /* Pods-DesafioStefaniniTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM9Z8VV5ZP;
+				INFOPLIST_FILE = DesafioStefaniniTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipesouza.DesafioStefaniniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesafioStefanini.app/DesafioStefanini";
+			};
+			name = Release;
+		};
+		3B047CEC271B38C400467ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2951CE504338E97061A56072 /* Pods-DesafioStefanini-DesafioStefaniniUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM9Z8VV5ZP;
+				INFOPLIST_FILE = DesafioStefaniniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipesouza.DesafioStefaniniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesafioStefanini;
+			};
+			name = Debug;
+		};
+		3B047CED271B38C400467ABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D7E5C5911A52DF70BC5AC2 /* Pods-DesafioStefanini-DesafioStefaniniUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM9Z8VV5ZP;
+				INFOPLIST_FILE = DesafioStefaniniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.filipesouza.DesafioStefaniniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DesafioStefanini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B047CB6271B38C100467ABD /* Build configuration list for PBXProject "DesafioStefanini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B047CE3271B38C400467ABD /* Debug */,
+				3B047CE4271B38C400467ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B047CE5271B38C400467ABD /* Build configuration list for PBXNativeTarget "DesafioStefanini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B047CE6271B38C400467ABD /* Debug */,
+				3B047CE7271B38C400467ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B047CE8271B38C400467ABD /* Build configuration list for PBXNativeTarget "DesafioStefaniniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B047CE9271B38C400467ABD /* Debug */,
+				3B047CEA271B38C400467ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B047CEB271B38C400467ABD /* Build configuration list for PBXNativeTarget "DesafioStefaniniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B047CEC271B38C400467ABD /* Debug */,
+				3B047CED271B38C400467ABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B047CB3271B38C100467ABD /* Project object */;
+}
